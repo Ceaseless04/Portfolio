@@ -1,25 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
+          <div className="text">
+            <div className="nav-bar">
+              <a class="active" href=".about-me">About Me</a>
+              <a href=".education">Education</a>
+              <a href=".tech-skills">Tech Skills</a>
+              <a href=".portfolio">Portfolio</a>
+            </div>
+            <h1 id="title">Personal Website</h1>
+            <h2 id="intro">Hi!😄</h2>
+            <div className="about-me">
+              <h2 id="intro">About Me</h2>
+              <p className="description">
+                Apart from being a Software Engineer,<br></br>
+                I like to listen to music, read books,<br></br>
+                and help my community.
+              </p>
+            </div>
+            <div className="education">
+              <h2 id="intro">Education</h2>
+              <h3 id="school">Florida International University</h3>
+                <p className="description">
+                  <ul>
+                    <li id="unordered-list">
+                      Programming I & II
+                    </li>
+                    <li id="unordered-list2">
+                      Discrete Structures
+                    </li>
+                  </ul> 
+                </p>
+            </div>
+        </div>
+      </body>
     </div>
   );
 }
-
-export default App;
