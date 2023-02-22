@@ -8,7 +8,7 @@ export default function App() {
             <div className="nav-bar">
               <a class="active" href=".about-me">About Me</a>
               <a href=".education">Education</a>
-              <a href=".tech-skills">Tech Skills</a>
+              <a href=".tech-skills">Skills</a>
               <a href=".portfolio">Portfolio</a>
             </div>
             <h1 id="title">Personal Website</h1>
@@ -34,6 +34,9 @@ export default function App() {
                     </li>
                   </ul> 
                 </p>
+            </div>
+            <div className="technical-skills">
+              <h2 id="intro">Skills</h2>
             </div>
         </div>
       </body>
