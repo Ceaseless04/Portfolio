@@ -29,7 +29,7 @@ export default function App() {
               <h3 id="school">Florida International University</h3>
                 <p className="description">
                   <ul>
-                    <li id="unordered-list">
+                    <li id="unordered-list" className='list-disc'>
                       Programming I & II
                     </li>
                     <li id="unordered-list2">
@@ -46,7 +46,16 @@ export default function App() {
                   <h3 id="languages">Languages</h3>
                   <ul>
                     <li>
-                      
+                      HTML5/CSS
+                    </li>
+                    <li>
+                      React.js
+                    </li>
+                    <li>
+                      Tailwind
+                    </li>
+                    <li>\
+
                     </li>
                   </ul>
                 </div>

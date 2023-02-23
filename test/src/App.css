@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
 body {
   background-image: linear-gradient(to right, #0B0C10, #1F2833);
 }
@@ -13,7 +19,7 @@ body {
 .nav-bar a {
   overflow: hidden;
   color: #66FCF1;
-  padding: 14px 16px;
+  padding: 0.875em 1em;
   text-decoration: none;
 }
 
@@ -37,6 +43,8 @@ body {
 #unordered-list {
   margin-right: 5%;
   list-style-position: inside;
+  text-decoration: dotted;
+
 }
 
 #school {
