@@ -35,8 +35,14 @@ export default function App() {
                   </ul> 
                 </p>
             </div>
-            <div className="technical-skills">
-              <h2 id="intro">Skills</h2>
+            <div className="tech-skills">
+              <h2 id="intro">Technical Skills</h2>
+              <div className="typesOf-skills">
+                <h3 id="coding-languages">Languages</h3>
+                <h3 id="database">Database Management</h3>
+                <h3 id="tools">Tools</h3>
+                <h3 id="other">Soft Skills</h3>
+              </div>
             </div>
         </div>
       </body>
