@@ -20,14 +20,10 @@ body {
 .tech-skills {
   color: whitesmoke;
 }
-/* 
-  left off here, need to work on the commenting on both App.js and
-  on here lol
-*/
 
-/* .typesOf-skills {
-
-} */
+.coding-languages {
+  text-align: left;
+}
 
 #title {
   color: whitesmoke;
