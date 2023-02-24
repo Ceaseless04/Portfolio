@@ -14,17 +14,17 @@ export default function App() {
             </div>
             <h1 id="title">Personal Website</h1>
             <h2 id="intro">Hi!😄</h2>
-            <div className="about-me">
-              <h2 id="intro">About Me</h2>
+            <section className="about-me">
+              <h2 id="intro" className='text-2xl font-mono'>About Me</h2>
               {/*Short description (interest other than coding)*/}
               <p className="description">
                 Apart from being a Software Engineer,<br></br>
                 I like to listen to music, read books,<br></br>
                 and help my community.
               </p>
-            </div>
+            </section>
             {/*Education relevant to FIU (courses that relate to CS)*/}
-            <div className="education">
+            <section className="education">
               <h2 id="intro">Education</h2>
               <h3 id="school">Florida International University</h3>
                 <p className="description">
@@ -37,9 +37,9 @@ export default function App() {
                     </li>
                   </ul> 
                 </p>
-            </div>
+            </section>
             {/*Dividing skills in 3 categories: tech skills, soft skills, and dev tools*/}
-            <div className="tech-skills">
+            <section className="tech-skills">
               <h2 id="intro">Technical Skills</h2>
               <div className="typesOf-skills">
                 <div className='text-center'>
@@ -63,7 +63,7 @@ export default function App() {
                 <h3 id="tools">Tools</h3>
                 <h3 id="other">Soft Skills</h3>
               </div>
-            </div>
+            </section>
         </div>
       </body>
     </div>
