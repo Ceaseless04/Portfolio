@@ -32,7 +32,7 @@ export default function App() {
                     <li id="unordered-list" className='list-disc'>
                       Programming I & II
                     </li>
-                    <li id="unordered-list2">
+                    <li id="unordered-list2" className='list-disc'>
                       Discrete Structures
                     </li>
                   </ul> 
@@ -42,20 +42,20 @@ export default function App() {
             <div className="tech-skills">
               <h2 id="intro">Technical Skills</h2>
               <div className="typesOf-skills">
-                <div className="coding-languages">
+                <div className='text-center'>
                   <h3 id="languages">Languages</h3>
                   <ul>
-                    <li>
+                    <li id="unordered-list" className='list-disc'>
                       HTML5/CSS
                     </li>
-                    <li>
+                    <li id="unordered-list" className='list-disc'>
                       React.js
                     </li>
-                    <li>
+                    <li id="unordered-list" className='list-disc'>
                       Tailwind
                     </li>
-                    <li>\
-
+                    <li id="unordered-list" className='list-disc'>
+                      TypeScript
                     </li>
                   </ul>
                 </div>
