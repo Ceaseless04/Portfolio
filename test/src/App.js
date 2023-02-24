@@ -12,8 +12,8 @@ export default function App() {
               <a href=".tech-skills">Skills</a>
               <a href=".portfolio">Portfolio</a>
             </div>
-            <h1 id="title">Personal Website</h1>
-            <h2 id="intro">Hi!😄</h2>
+            <h1 id="title" className="text-3xl">Personal Website</h1>
+            <h2 id="intro" className="text-4xl ">Hi!😄</h2>
             <section className="about-me">
               <h2 id="intro" className='text-2xl font-mono'>About Me</h2>
               {/*Short description (interest other than coding)*/}
