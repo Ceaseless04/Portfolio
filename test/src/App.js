@@ -1,10 +1,10 @@
-import './App.css';
+// import './App.css';
 
 export default function App() {
   return (
-    <div className="App">
+    <div>
       <body>
-          <div className="text">
+          <div>
             {/*nav bar that links according to headings*/}
             <div className="nav-bar">
               <a href=".about-me">About Me</a>
@@ -17,7 +17,7 @@ export default function App() {
             <section className="about-me">
               <h2 id="intro" className='text-2xl font-mono'>About Me</h2>
               {/*Short description (interest other than coding)*/}
-              <p className="description">
+              <p>
                 Apart from being a Software Engineer,<br></br>
                 I like to listen to music, read books,<br></br>
                 and help my community.
@@ -40,28 +40,28 @@ export default function App() {
             </section>
             {/*Dividing skills in 3 categories: tech skills, soft skills, and dev tools*/}
             <section className="tech-skills">
-              <h2 id="intro">Technical Skills</h2>
+              <h2>Technical Skills</h2>
               <div className="typesOf-skills">
-                <div className='text-center'>
-                  <h3 id="languages">Languages</h3>
+                <div>
+                  <h3>Languages</h3>
                   <ul>
-                    <li id="unordered-list" className='list-disc'>
+                    <li>
                       HTML5/CSS
                     </li>
-                    <li id="unordered-list" className='list-disc'>
+                    <li>
                       React.js
                     </li>
-                    <li id="unordered-list" className='list-disc'>
+                    <li>
                       Tailwind
                     </li>
-                    <li id="unordered-list" className='list-disc'>
+                    <li>
                       TypeScript
                     </li>
                   </ul>
                 </div>
-                <h3 id="database">Database Management</h3>
-                <h3 id="tools">Tools</h3>
-                <h3 id="other">Soft Skills</h3>
+                <h3>Database Management</h3>
+                <h3>Tools</h3>
+                <h3>Soft Skills</h3>
               </div>
             </section>
         </div>
