@@ -7,7 +7,7 @@ export default function App() {
           <div className="text">
             {/*nav bar that links according to headings*/}
             <div className="nav-bar">
-              <a class="active" href=".about-me">About Me</a>
+              <a href=".about-me">About Me</a>
               <a href=".education">Education</a>
               <a href=".tech-skills">Skills</a>
               <a href=".portfolio">Portfolio</a>
