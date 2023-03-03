@@ -2,7 +2,7 @@ import './App.css';
 
 function App() {
   return (
-      <body class="bg-slate-50">
+      <body>
         <p>hi</p>
       </body>
   );
