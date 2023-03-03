@@ -6,6 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'a': ['League Spartan Nav Bar'],
+    },
   },
   plugins: [],
 }
