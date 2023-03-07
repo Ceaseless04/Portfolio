@@ -19,6 +19,7 @@ export default function About() {
                     <br></br>
                     Programming II and Discrete Structures.
                 </p>
+                <br></br>
             </span>
         </div>
     );
