@@ -11,6 +11,8 @@ export default function TopNavBar() {
             <a href="#skills" src={Skills} className="py-3.5 px-4">Skills</a>
             <a href='#contact' className="py-3.5 px-4">Contact</a>
         </div>
+        
+        
       </nav>
     );
   }
