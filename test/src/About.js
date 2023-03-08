@@ -1,5 +1,13 @@
 import IMG_0094 from './IMG_0094.png';
 
+/*
+    TO DO'S:
+    - Complete AND deploy personal website by thursday:
+        - fix flexbox for about me
+        - do row and col for skills
+        - learn vercel for deploying a website to production
+*/
+
 export default function About() {
     return (
         <div id='about' className='flex'>
