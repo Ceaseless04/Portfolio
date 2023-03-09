@@ -10,13 +10,13 @@ import IMG_0094 from './IMG_0094.png';
 
 export default function About() {
     return (
-        <div id='about' className='flex'>
+        <div id='about' className='flex-1'>
             {/* <img src={ IMG_0094} alt='Me' className='absolute w-auto h-96 rounded-lg mx-72 mt-4'></img> */}
                 <div className='object-cover h-80 w-80'>
-                    <img src={ IMG_0094 } alt='Me'className='rounded-lg'></img>
+                    <img src={ IMG_0094 } alt='Me'className='rounded-lg items-center'></img>
                 </div>
                 <br></br>
-                <div className='text-center text-l'>
+                <div className='text-center text-l pl-80'>
                     <p>
                         Besides being a Software Engineer, I like to watch movies, skateboard,
                         work-out, 
