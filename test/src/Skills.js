@@ -8,13 +8,22 @@ export default function Skills() {
                 <h5>Languages</h5>
                 <h5>Soft Skills</h5>
             </div>
-            <div className="text-center text-base">
-                <ul className="list-disc">
+            <div className="text-justify text-base">
+                <ul className="list-disc list-inside grid-rows-1 columns-3">
                     <li>VS Code</li>
                     <li>Github</li>
                     <li>Firebase</li>
                     <li>Git</li>
                     <li>IntelliJ</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>HTML/CSS</li>
+                    <li>TypeScript</li>
+                    <li>Java</li>
+                    <li>Team Co-operation</li>
+                    <li>Feedback Management</li>
+                    <li>Problem Solving</li>
+                    <li>Prioritizing tasks</li>
                 </ul>
             </div>
         </div>

@@ -10,23 +10,20 @@ import IMG_0094 from './IMG_0094.png';
 
 export default function About() {
     return (
-        <div id='about' className='flex-1'>
-            {/* <img src={ IMG_0094} alt='Me' className='absolute w-auto h-96 rounded-lg mx-72 mt-4'></img> */}
-                <div className='object-cover h-80 w-80'>
-                    <img src={ IMG_0094 } alt='Me'className='rounded-lg items-center'></img>
+        <div id='about' className='grid-row-1 columns-2xs m-auto'>
+                <div className="flex justify-center">
+                    <img src={ IMG_0094 } alt='Me'className='rounded-lg w-auto h-96'></img>
                 </div>
-                <br></br>
-                <div className='text-center text-l pl-80'>
+                <div className='text-center text-l'>
                     <p>
                         Besides being a Software Engineer, I like to watch movies, skateboard,
                         work-out, 
                         <br></br>
                         and help my community.
                         <br></br>
-                        I am currently pursuing a Bachelors in Computer Science,
-                        being enrolled in courses such as 
                         <br></br>
-                        Programming II and Discrete Structures.
+                        I am currently pursuing a Bachelors in Computer Science,
+                        being enrolled in courses such as Programming II and Discrete Structures.
                     </p>
                     <br></br>
                 </div>
