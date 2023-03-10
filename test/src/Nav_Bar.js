@@ -1,6 +1,5 @@
 import About from './About';
 import Skills from './Skills';
-import Contact from './Contact';
 
 // // create variables for sticky nav bar
 // window.onscroll = function() {Sticky()}; // when user scrolls page, execute the Sticky function
@@ -25,10 +24,12 @@ export default function TopNavBar() {
             <a href='#about' src={About} className="py-3.5 px-4">About</a> {/* will be linked to the About me section in another function*/}
             <a href='#portfolio' className="py-3.5 px-4">Portfolio</a>
             <a href="#skills" src={Skills} className="py-3.5 px-4">Skills</a>
-            <a href='#contact' src={Contact} className="py-3.5 px-4">Contact</a>
+            {/* <a href='#contact' src={Contact} className="py-3.5 px-4">Contact</a> */}
+            <button className="px-4 py-3.5">Contact</button>
         </div>
-        
-        
+        <div className="hidden absolute bg-gray-100">
+          <button>Links to reach out to me</button>
+        </div>
       </nav>
     );
   }

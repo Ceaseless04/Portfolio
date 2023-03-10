@@ -1,7 +1,6 @@
 import TopNavBar from './Nav_Bar';
 import About from './About';
 import Skills from './Skills';
-import Contact from './Contact';
 
 export default function App() {
   return (
@@ -9,7 +8,6 @@ export default function App() {
         <TopNavBar />
         <About />
         <Skills />
-        <Contact />
     </div>
   );
 }
