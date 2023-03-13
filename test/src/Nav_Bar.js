@@ -1,10 +1,10 @@
 import About from './About';
 import Skills from './Skills';
+import Portfolio from './Projects';
 
 // variables for links
 let linkedIn = "https://www.linkedin.com/in/kristian-vazquez-0329b4244/";
-// let gitHub = "";
-
+let gitHub = "https://github.com/Ceaseless04";
 
 export default function TopNavBar() {
     return (
@@ -13,7 +13,8 @@ export default function TopNavBar() {
         <div className="container flex flex-wrap items-center justify-between mx-auto">
           {/* will be linked to the About me section in another function*/}
             <a href='#about' src={About} className="py-3.5 px-4 hover:bg-red-300 rounded-full">About</a>
-            <a href='#portfolio' className="py-3.5 px-4 hover:bg-red-300 rounded-full">Portfolio</a>
+            <a href='#portfolio'src={Portfolio} className="py-3.5 px-4 hover:bg-red-300 rounded-full">Portfolio</a>
+            {/* <Link to={Portfolio} className='py-3.5 px-4 hover:bg-red-300 rounded-full'>Portfolio</Link> */}
             <a href="#skills" src={Skills} className="py-3.5 px-4 hover:bg-red-300 rounded-full">Skills</a>
             <button id="actButton" data-dropdown-toggle="links" data-dropdown-trigger="hover" className="px-4 py-3.5 inline-flex hover:bg-red-300 rounded-full" type='button'>Contact</button>
         </div>
