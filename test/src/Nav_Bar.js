@@ -31,10 +31,22 @@ export default function TopNavBar() {
     );
   }
 
-// function DropDown() {
-//   const [display, setDisplay] = useState('none');
-
-//   function handlekClick() {
-
-//   }
-// }
+  //=========================================================================
+  // function Contact() {
+  //   const [isOpen, setIsOpen] = useState(false);
+  //   const toggle = () => setIsOpen(!isOpen);
+  //   const close = () => setIsOpen(false);
+  //   return (
+  //     <div>
+  //       <button onClick={toggle}>Contact</button>
+  //       {isOpen && (
+  //         <div>
+  //           <a href={linkedIn}>LinkedIn</a>
+  //           <a href={gitHub}>GitHub</a>
+  //         </div>
+  //       )}
+  //       <div onClick={close} />
+  //     </div>
+  //   );
+  // }
+  //=========================================================================

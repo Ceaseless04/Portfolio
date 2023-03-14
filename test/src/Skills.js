@@ -8,7 +8,7 @@ export default function Skills() {
                 <h5>Languages</h5>
                 <h5>Soft Skills</h5>
             </div>
-            <div className="flex justify-center text-base text-center">
+            <div className="flex justify-center text-base">
                 <ul className="list-disc list-inside grid-rows-1 columns-3 inline-block text-left space-x-28">
                     {/* Dev Tools list */}
                     <div>
