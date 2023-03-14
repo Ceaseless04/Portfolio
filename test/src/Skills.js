@@ -2,7 +2,7 @@ export default function Skills() {
     return (
         <div id='skills' className="text-center pt-32">
             <h2 className="text-3xl">Skills</h2>
-            <div className="grid-rows-1 columns-3 pt-8 text-2xl">
+            <div className="grid-rows-1 columns-5 pt-8 text-2xl">
                 {/* Dev tools container */}
                 <h5>Dev Tools</h5>
                 <h5>Languages</h5>

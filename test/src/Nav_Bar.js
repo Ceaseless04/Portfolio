@@ -22,6 +22,7 @@ export default function TopNavBar() {
           <ul className='text-black' aria-labelledby='actButton'>
             <li>
               <a href={linkedIn} className='block px-4 py-3.5 hover:bg-red-200'>LinkedIn</a>
+              <a href={gitHub} className="block px-4 py-3.5 hover:bg-red-200">GitHUb</a>
             </li>
           </ul>
         </div>
