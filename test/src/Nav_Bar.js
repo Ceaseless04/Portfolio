@@ -1,6 +1,7 @@
 import About from './About';
 import Skills from './Skills';
 import Portfolio from './Projects';
+import { useState } from 'react';
 
 // variables for links
 let linkedIn = "https://www.linkedin.com/in/kristian-vazquez-0329b4244/";
@@ -29,3 +30,11 @@ export default function TopNavBar() {
       </nav>
     );
   }
+
+// function DropDown() {
+//   const [display, setDisplay] = useState('none');
+
+//   function handlekClick() {
+
+//   }
+// }
