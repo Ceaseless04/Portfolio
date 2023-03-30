@@ -6,8 +6,8 @@ export default function App() {
   return (
     <>
       <Home />
-      <About />
-      <Skills />
+  
+     
     </>
   );
 }

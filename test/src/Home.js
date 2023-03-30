@@ -1,12 +1,14 @@
+
 import About from './components/About';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 
-
 export default function Home() {
     return (
+        <>
+
         <BrowserRouter>
         {/* nav tag for the navigation bar */}
         <nav className="top-0 text-center text-lg overflow-hidden no-underline bg-red-200 drop-shadow-lg py-3.5 px-4 w-96 mx-auto rounded-b-2xl font-a">
@@ -19,12 +21,14 @@ export default function Home() {
             </div>
         
         </nav>
-
+        <About/>
+        <Skills/>
 
         <Routes>
           <Route path='/Projects' element={<Projects />} />
           <Route path='/Contact' element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      </>
     );
 }
