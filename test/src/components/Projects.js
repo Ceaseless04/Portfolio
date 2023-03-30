@@ -1,8 +1,6 @@
-import TopNavBar from "./Nav_Bar";
-
-export default function Portfolio() {
+export default function Projects() {
     return (
-        <div >
+        <div id="projects">
             
         </div>
     );
