@@ -1,6 +1,6 @@
 export default function Skills() {
     return (
-        <div id='skills' className="text-center pt-32">
+        <div id='skills' className="text-center m-24 bg-red-200 rounded-lg drop-shadow-xl">
             <h2 className="text-3xl">Skills</h2>
             <div className="flex grid-rows-1 columns-3 pt-8 text-2xl space-x-72 justify-center">
                 {/* Dev tools container */}
@@ -9,7 +9,7 @@ export default function Skills() {
                 <h5>Soft Skills</h5>
             </div>
             <div className="flex justify-center text-base">
-                <ul className="list-disc list-inside grid-rows-1 columns-3 inline-block text-left space-x-28">
+                <ul className="list-disc list-inside grid-rows-1 columns-3 inline-block text-left space-x-24">
                     {/* Dev Tools list */}
                     <div>
                         <li>VS Code</li>
@@ -21,7 +21,7 @@ export default function Skills() {
                     {/* Coding Languages list */}
                     <div>
                         <li>React</li>
-                        <li>Node.js</li>
+                        <li>Express.js</li>
                         <li>HTML/CSS</li>
                         <li>TypeScript</li>
                         <li>Java</li>

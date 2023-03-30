@@ -1,6 +1,6 @@
-import TopNavBar from './Nav_Bar';
-import About from './About';
-import Skills from './Skills';
+import TopNavBar from './components/Nav_Bar';
+import About from './components/About';
+import Skills from './components/Skills';
 
 export default function App() {
   return (
