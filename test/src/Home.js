@@ -8,7 +8,6 @@ import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
 export default function Home() {
     return (
         <>
-
         <BrowserRouter>
         {/* nav tag for the navigation bar */}
         <nav className="top-0 text-center text-lg overflow-hidden no-underline bg-red-200 drop-shadow-lg py-3.5 px-4 w-96 mx-auto rounded-b-2xl font-a">
