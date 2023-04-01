@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 export default function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter> {/* uses history API to keep UI in sync with URL*/}
       <div>
         <NavBar />
       </div>
