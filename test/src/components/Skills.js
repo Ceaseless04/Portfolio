@@ -18,7 +18,6 @@ export default function Skills() {
     return (
         <div id='skills' className=" flex flex-col text-center m-24 bg-red-200 rounded-lg drop-shadow-xl">
             <h2 className="text-3xl divide-y bg-red-100 rounded-t-lg font-semibold">Skills</h2>
-            {/* <hr class="flex h-px mx-80 my-2 bg-gray-200 border-0 dark:bg-gray-700"></hr> */}
             <table className="">
                 <thead>
                     <tr>
