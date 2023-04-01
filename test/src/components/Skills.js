@@ -7,13 +7,11 @@ const skills = {
     list3: ['Team Co-operation', 'Feedback Management', 'Problem Solving', 'Prioritizing tasks'],
 };
 
-// const iterate = () => {
-//     for(let i = 0; i < skills ; i++) {
-//         return (
-//             <li>{skills.list1[i]}</li>
-//         );
-//     }
-// }
+const dev_tools = () => {
+    for(let i = 0; i < skills.list1.length; i++) {
+        return (<li>{skills.list1[i]}</li>);
+    }
+}
 
 export default function Skills() {
 
@@ -40,8 +38,21 @@ export default function Skills() {
                         <td>
                             <div>
                                 <ul>
-                                    <li>{skills.list1[0]}</li>
-                                    {skills.list1[1]}
+                                    {dev_tools}
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <ul>
+                                    <li>{skills.list2}</li>
+                                </ul>
+                            </div>
+                        </td>
+                        <td>
+                            <div>
+                                <ul>
+                                    <li>{skills.list3}</li>
                                 </ul>
                             </div>
                         </td>
