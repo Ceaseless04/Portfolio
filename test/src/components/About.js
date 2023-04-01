@@ -7,9 +7,8 @@ export default function About() {
                     <img src={ IMG_0094 } alt='Me'className='drop-shadow-xl rounded-lg w-auto h-96'></img>
                 </div>
                 <div className='text-center text-l bg-red-200 rounded-lg drop-shadow-xl grid-rows-2 space-y-3 '>
-                    <h2 className='text-3xl w-auto'>About Me</h2>
-                    <hr class="h-px mx-20 my-4 bg-gray-200 border-0 dark:bg-gray-700"></hr>
-                    <p>
+                    <h2 className='bg-red-100 text-3xl w-auto rounded-t-lg font-semibold'>About Me</h2>
+                    <p className='font-medium'>
                         Besides being a Software Engineer, I like to watch movies, skateboard,
                         work-out, 
                         <br></br>
