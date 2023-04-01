@@ -1,6 +1,6 @@
 // variables for links
-let linkedIn = "https://www.linkedin.com/in/kristian-vazquez-0329b4244/";
-let gitHub = "https://github.com/Ceaseless04";
+let linkedIn = window.open("https://www.linkedin.com/in/kristian-vazquez-0329b4244/");
+let gitHub = window.open("https://github.com/Ceaseless04");
 
 export default function Contact() {
     return (
