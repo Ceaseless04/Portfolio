@@ -40,10 +40,8 @@ export default function Skills() {
                         <td>
                             <div>
                                 <ul>
-                                    <li>
-                                        {skills.list1[0] + "\n"}
-                                    </li>
-                                    {skills.list1[1] + "\n"}
+                                    <li>{skills.list1[0]}</li>
+                                    {skills.list1[1]}
                                 </ul>
                             </div>
                         </td>
