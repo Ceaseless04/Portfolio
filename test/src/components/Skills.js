@@ -22,13 +22,13 @@ export default function Skills() {
             <table className="">
                 <thead>
                     <tr>
-                        <th scope="col" className="">
+                        <th scope="col" className="font-semibold">
                             Dev Tools
                         </th>
-                        <th scope="col" className="">
+                        <th scope="col" className="font-semibold">
                             Coding Languages
                         </th>
-                        <th scope="col" className="">
+                        <th scope="col" className="font-semibold">
                             Soft Skills
                         </th>
                     </tr>
