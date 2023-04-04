@@ -7,18 +7,12 @@ const skills = {
     list3: ['Team Co-operation', 'Feedback Management', 'Problem Solving', 'Prioritizing tasks'],
 };
 
-const dev_tools = () => {
-    for(let i = 0; i < skills.list1.length; i++) {
-        return (<li>{skills.list1[i]}</li>);
-    }
-}
-
 export default function Skills() {
 
     return (
         <div id='skills' className=" flex flex-col text-center m-24 bg-red-200 rounded-lg drop-shadow-xl">
             <h2 className="text-3xl divide-y bg-red-100 rounded-t-lg font-semibold">Skills</h2>
-            <table className="">
+            <table>
                 <thead>
                     <tr>
                         <th scope="col" className="font-semibold">
@@ -36,22 +30,33 @@ export default function Skills() {
                     <tr>
                         <td>
                             <div>
-                                <ul>
-                                    {dev_tools}
+                                <ul className="list-disc list-inside grid-rows-1 text-left">
+                                    <li>{skills.list1[0]}</li>
+                                    <li>{skills.list1[1]}</li>
+                                    <li>{skills.list1[2]}</li>
+                                    <li>{skills.list1[3]}</li>
+                                    <li>{skills.list1[4]}</li>
                                 </ul>
                             </div>
                         </td>
                         <td>
                             <div>
-                                <ul>
-                                    <li>{skills.list2}</li>
+                                <ul className="list-disc list-inside grid-rows-1 text-left">
+                                    <li>{skills.list2[0]}</li>
+                                    <li>{skills.list2[1]}</li>
+                                    <li>{skills.list2[2]}</li>
+                                    <li>{skills.list2[3]}</li>
+                                    <li>{skills.list2[4]}</li>
                                 </ul>
                             </div>
                         </td>
                         <td>
                             <div>
-                                <ul>
-                                    <li>{skills.list3}</li>
+                                <ul className="list-disc list-inside grid-rows-1 text-left">
+                                <li>{skills.list3[0]}</li>
+                                <li>{skills.list3[1]}</li>
+                                <li>{skills.list3[2]}</li>
+                                <li>{skills.list3[3]}</li>
                                 </ul>
                             </div>
                         </td>
