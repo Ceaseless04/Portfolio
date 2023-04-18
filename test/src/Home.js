@@ -3,6 +3,7 @@ import About from './components/About';
 import Skills from './components/Skills';
 import { useNavigate } from 'react-router-dom';
 import Photo from "./Images/Contact_pfp.png";
+import Contact from './components/Contact';
 
 export default function Home() {
 
@@ -10,6 +11,7 @@ export default function Home() {
       <>
         <About/>
         <Skills/>
+        <Contact />
       </>
     );
 }
@@ -27,7 +29,7 @@ export const NavBar = () => {
           <a href='#about' src={About} className="py-3.5 px-4 hover:bg-red-300 rounded-full">About</a>
           <button onClick={() => navigate("/Projects")} className="py-3.5 px-4 hover:bg-red-300 rounded-full">Projects</button>
           <a href="#skills" src={Skills} className="py-3.5 px-4 hover:bg-red-300 rounded-full">Skills</a>
-          <button onClick={() => navigate("/Contact")} className="inline-flex rounded-full border-4 border-red-200 hover:scale-110"><img src={Photo} alt='Me drinking Boba' className='object-scale-down h-20 max-w-full rounded-full'></img></button>
+          <a href="#contact" className="inline-flex rounded-full border-4 border-red-200 hover:scale-110"><img src={Photo} alt='Me drinking Boba' className='object-scale-down h-20 max-w-full rounded-full'></img></a>
       </div>
     </nav>
     </>

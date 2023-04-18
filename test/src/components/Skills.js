@@ -2,7 +2,7 @@ const skills = {
     // Dev Tools skills
     list1: ['VS Code', 'Github', 'Firebase', 'Git', 'IntelliJ'],
     // Coding Languages Skills
-    list2: ['React', 'Express.js', 'HTML/CSS', 'Flutter', 'Java'],
+    list2: ['React', 'Express.js', 'HTML/CSS', 'React Native', 'Java'],
     // Soft Skills
     list3: ['Team Co-operation', 'Feedback Management', 'Problem Solving', 'Prioritizing tasks'],
 };
@@ -10,9 +10,9 @@ const skills = {
 export default function Skills() {
 
     return (
-        <div id='skills' className=" flex flex-col text-center m-24 bg-red-200 rounded-lg drop-shadow-xl">
+        <div id='skills' className="flex flex-col text-center m-24 bg-red-200 rounded-lg drop-shadow-xl">
             <h2 className="text-3xl divide-y bg-red-100 rounded-t-lg font-semibold">Skills</h2>
-            <table>
+            <table className="table-auto">
                 <thead>
                     <tr>
                         <th scope="col" className="font-semibold">
@@ -26,11 +26,11 @@ export default function Skills() {
                         </th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className>
                     <tr>
                         <td>
                             <div>
-                                <ul className="list-disc list-inside grid-rows-1 text-left">
+                                <ul className=" grid-rows-1 text-center">
                                     <li>{skills.list1[0]}</li>
                                     <li>{skills.list1[1]}</li>
                                     <li>{skills.list1[2]}</li>
@@ -41,7 +41,7 @@ export default function Skills() {
                         </td>
                         <td>
                             <div>
-                                <ul className="list-disc list-inside grid-rows-1 text-left">
+                                <ul className="grid-rows-1 text-center">
                                     <li>{skills.list2[0]}</li>
                                     <li>{skills.list2[1]}</li>
                                     <li>{skills.list2[2]}</li>
@@ -52,7 +52,7 @@ export default function Skills() {
                         </td>
                         <td>
                             <div>
-                                <ul className="list-disc list-inside grid-rows-1 text-left">
+                                <ul className=" grid-rows-1 text-center">
                                 <li>{skills.list3[0]}</li>
                                 <li>{skills.list3[1]}</li>
                                 <li>{skills.list3[2]}</li>
