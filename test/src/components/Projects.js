@@ -6,7 +6,7 @@ import { RxDotFilled } from 'react-icons/rx';
 export default function Projects() {
     const projects_slides = [
         {
-            'url': ,
+            'url': '',
         },
     ];
 
